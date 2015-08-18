@@ -1,0 +1,25 @@
+body{
+	background-color: black;
+}
+#banner{
+	background: url('http://www.geocities.ws/dreamedofjinny/angel_background_14.jpg');	
+	width: 100%;
+	min-height:189px;
+	border-bottom: 1px #000010 solid;
+}
+h1{
+	margin-left: 100px;
+}
+
+.style_one{
+	color: green;
+}
+.style_two{
+	color: red;
+}
+.style_one .style_two{
+	color: yellow;
+}
+.style_one.style_two{
+	color: blue;
+}
